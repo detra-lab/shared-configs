@@ -1,0 +1,8 @@
+.cache
+.DS_Store
+.env*
+.idea
+.node-version
+*log
+node_modules
+Thumbs.db

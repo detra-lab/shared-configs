@@ -1,0 +1,117 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.8.2/schema.json",
+
+  "organizeImports": {
+    "enabled": true
+  },
+
+  "javascript": {
+    "jsxRuntime": "transparent",
+    "globals": ["describe", "expect", "it"]
+  },
+
+  "json": {
+    "parser": {
+      "allowComments": true
+    }
+  },
+
+  "linter": {
+    "rules": {
+      "recommended": true,
+
+      "complexity": {
+        "noExcessiveCognitiveComplexity": "error",
+        "noVoid": "error",
+        "useSimplifiedLogicExpression": "error"
+      },
+
+      "correctness": {
+        // --- JavaScript
+        "noUndeclaredVariables": "error",
+        "noUnusedImports": "error",
+        "noUnusedPrivateClassMembers": "error",
+        "noUnusedVariables": "error",
+        "useArrayLiterals": "error",
+
+        // --- React
+        "useHookAtTopLevel": "error"
+      },
+
+      "nursery": {
+        // --- JavaScript
+        "noConsole": "error",
+        "noDoneCallback": "error",
+        "noDuplicateElseIf": "error",
+        "noLabelWithoutControl": "error",
+        "noMisplacedAssertion": "error",
+        "noUnusedFunctionParameters": "error",
+        "noUselessStringConcat": "error",
+        "noUselessUndefinedInitialization": "error",
+        "noYodaExpression": "error",
+        "useConsistentBuiltinInstantiation": "error",
+        "useDateNow": "error",
+        "useErrorMessage": "error",
+        "useExplicitLengthCheck": "error",
+        "useFocusableInteractive": "error",
+        "useImportExtensions": "error",
+        "useNumberToFixedDigitsArgument": "error",
+        "useThrowNewError": "error",
+        "useThrowOnlyError": "error",
+        "useTopLevelRegex": "error",
+
+        // --- TypeScript
+        "noEvolvingTypes": "error",
+        "useAdjacentOverloadSignatures": "error",
+
+        // --- CSS
+        "noDuplicateAtImportRules": "error",
+        "noDuplicateFontNames": "error",
+        "noDuplicateSelectorsKeyframeBlock": "error",
+        "noEmptyBlock": "error",
+        "noImportantInKeyframe": "error",
+        "noInvalidPositionAtImportRule": "error",
+        "noUnknownFunction": "error",
+        "noUnknownMediaFeatureName": "error",
+        "noUnknownProperty": "error",
+        "noUnknownSelectorPseudoElement": "error",
+        "noUnknownUnit": "error",
+        "noUnmatchableAnbSelector": "error",
+        "useGenericFontNames": "error",
+        "useSortedClasses": "error",
+
+        // --- JSON
+        "noDuplicateJsonKeys": "error"
+      },
+
+      "style": {
+        // --- JavaScript
+        "noNegationElse": "error",
+        "noShoutyConstants": "error",
+        "useBlockStatements": "error",
+        "useCollapsedElseIf": "error",
+        "useForOf": "error",
+        "useNodeAssertStrict": "error",
+        "useShorthandAssign": "error",
+        "useSingleCaseStatement": "error",
+
+        // --- TypeScript
+        "noNamespace": "error",
+        "noParameterProperties": "error",
+        "useConsistentArrayType": "error",
+        "useShorthandArrayType": "error",
+
+        // --- React
+        "noImplicitBoolean": "error"
+      },
+
+      "suspicious": {
+        // --- JavaScript
+        "noConsoleLog": "error",
+        "noEmptyBlockStatements": "error",
+        "noSkippedTests": "error",
+        "useAwait": "error"
+      }
+    }
+  }
+}

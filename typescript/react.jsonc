@@ -1,0 +1,22 @@
+{
+  "extends": "./base.jsonc",
+
+  "display": "React",
+
+  "compilerOptions": {
+    // --- Modules
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+
+    // --- Emit
+    "noEmit": true,
+    "sourceMap": false,
+
+    // --- Interop Constraints
+    "allowSyntheticDefaultImports": true,
+
+    // --- Language & Environment
+    "jsx": "react-jsx",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"]
+  }
+}

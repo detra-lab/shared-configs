@@ -1,0 +1,15 @@
+{
+  "extends": "./base.jsonc",
+
+  "display": "Node >=v16 - ESM",
+
+  "compilerOptions": {
+    // --- Modules
+    "module": "NodeNext",
+    "types": ["node"],
+
+    // --- Language & Environment
+    "lib": ["ESNext"],
+    "target": "ES2020"
+  }
+}

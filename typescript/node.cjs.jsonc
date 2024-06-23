@@ -1,0 +1,16 @@
+{
+  "extends": "./base.jsonc",
+
+  "display": "Node >=v16 - CJS",
+
+  "compilerOptions": {
+    // --- Modules
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "types": ["node"],
+
+    // --- Language & Environment
+    "lib": ["ESNext"],
+    "target": "ES2020"
+  }
+}

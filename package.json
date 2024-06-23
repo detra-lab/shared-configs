@@ -1,0 +1,63 @@
+{
+  "name": "@detra-lab/shared-configs",
+  "version": "0.1.0",
+  "description": "A collection of Detra configurations for JavaScript projects.",
+  "exports": {
+    "./biome/formatter": "./biome/formatter.jsonc",
+    "./biome/linter": "./biome/linter.jsonc",
+    "./typescript/node/cjs": "./typescript/node.cjs.jsonc",
+    "./typescript/node/esm": "./typescript/node.esm.jsonc",
+    "./typescript/react": "./typescript/react.jsonc"
+  },
+  "files": [
+    "./biome",
+    "./typescript"
+  ],
+  "scripts": {
+    "changeset": "changeset",
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.5",
+    "@evilmartians/lefthook": "^1.6.18"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": "^1.8.0",
+    "@types/node": ">=20.0.0",
+    "typescript": "^5.4.0"
+  },
+  "peerDependenciesMeta": {
+    "@biomejs/biome": {
+      "optional": true
+    },
+    "@types/node": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "Apache License 2.0",
+  "author": {
+    "name": "Detra",
+    "email": "detra.lab@pm.me",
+    "homepage": "https://github.com/detra-lab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/detra-lab/shared-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/detra-lab/shared-configs/issues"
+  },
+  "keywords": [
+    "biomejs",
+    "formatter",
+    "linter",
+    "tsconfig",
+    "typescript"
+  ]
+}
