@@ -1,11 +1,12 @@
 {
-  "extends": "./base.jsonc",
+  "extends": "./base.json",
 
-  "display": "Node >=v16 - ESM",
+  "display": "Node >=v16 - CJS",
 
   "compilerOptions": {
     // --- Modules
-    "module": "NodeNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
     "types": ["node"],
 
     // --- Language & Environment

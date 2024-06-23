@@ -5,13 +5,14 @@
   "exports": {
     "./biome/formatter": "./biome/formatter.jsonc",
     "./biome/linter": "./biome/linter.jsonc",
-    "./typescript/node/cjs": "./typescript/node.cjs.jsonc",
-    "./typescript/node/esm": "./typescript/node.esm.jsonc",
-    "./typescript/react": "./typescript/react.jsonc"
+    "./ts/base": "./ts/base.json",
+    "./ts/node/cjs": "./ts/node.cjs.json",
+    "./ts/node/esm": "./ts/node.esm.json",
+    "./ts/react": "./ts/react.json"
   },
   "files": [
     "./biome",
-    "./typescript"
+    "./ts"
   ],
   "scripts": {
     "changeset": "changeset",
