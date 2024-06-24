@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.0
+
+**Biome (Linter):** Add and configure the `useFilenamingConvention` and `useNamingConvention` style rules.
+
 ## 0.2.0
 
 - Provide the basic TypeScript configuration.
