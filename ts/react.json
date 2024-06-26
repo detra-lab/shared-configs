@@ -1,7 +1,9 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+
   "extends": "./base.json",
 
-  "display": "React",
+  "display": "React >=v18",
 
   "compilerOptions": {
     // --- Modules
@@ -16,7 +18,7 @@
     "allowSyntheticDefaultImports": true,
 
     // --- Language & Environment
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "lib": ["ESNext", "DOM", "DOM.Iterable"]
   }
 }

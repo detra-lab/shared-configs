@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.0
+
+- **Biome (Linter)**: Enable the `useSortedClasses` rule for the [`clsx` functions](https://npmjs.com/package/clsx).
+- **Typescript (React):** Preserve the original JSX syntax with `"jsx": "preserve"`.
+
 ## 0.3.0
 
 **Biome (Linter):** Add and configure the `useFilenamingConvention` and `useNamingConvention` style rules.

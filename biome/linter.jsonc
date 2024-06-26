@@ -78,7 +78,12 @@
         "noUnknownUnit": "error",
         "noUnmatchableAnbSelector": "error",
         "useGenericFontNames": "error",
-        "useSortedClasses": "error",
+        "useSortedClasses": {
+          "level": "error",
+          "options": {
+            "functions": ["clsx"]
+          }
+        },
 
         // --- JSON
         "noDuplicateJsonKeys": "error"
