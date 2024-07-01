@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.0
+
+**Biome (Linter)**: Enable the `noBarrelFile` rule and disable `useTemplate`.
+
 ## 0.4.0
 
 - **Biome (Linter)**: Enable the `useSortedClasses` rule for the [`clsx` functions](https://npmjs.com/package/clsx).

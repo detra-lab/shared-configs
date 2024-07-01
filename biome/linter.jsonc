@@ -89,6 +89,10 @@
         "noDuplicateJsonKeys": "error"
       },
 
+      "performance": {
+        "noBarrelFile": "error"
+      },
+
       "style": {
         // --- JavaScript
         "noNegationElse": "error",
@@ -130,6 +134,7 @@
         "useNodeAssertStrict": "error",
         "useShorthandAssign": "error",
         "useSingleCaseStatement": "error",
+        "useTemplate": "off",
 
         // --- TypeScript
         "noNamespace": "error",
