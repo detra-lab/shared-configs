@@ -6,8 +6,7 @@
     "./biome/formatter": "./biome/formatter.jsonc",
     "./biome/linter": "./biome/linter.jsonc",
     "./ts/base": "./ts/base.json",
-    "./ts/node/cjs": "./ts/node.cjs.json",
-    "./ts/node/esm": "./ts/node.esm.json",
+    "./ts/node": "./ts/node.json",
     "./ts/react": "./ts/react.json"
   },
   "files": [
