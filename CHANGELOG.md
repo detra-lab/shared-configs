@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.1
+
+**Typescript (Node):**: The export path of the TypeScript configuration for Node.js projects has been fixed.
+
 ## 0.5.0
 
 **Biome (Linter)**: Enable the `noBarrelFile` rule and disable `useTemplate`.
