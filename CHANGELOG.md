@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.0
+
+**Biome (Linter)**: Disable the `useConsistentArrayType` and `useShorthandArrayType` rules.
+
 ## 0.5.1
 
 **Typescript (Node):**: The export path of the TypeScript configuration for Node.js projects has been fixed.

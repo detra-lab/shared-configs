@@ -139,8 +139,6 @@
         // --- TypeScript
         "noNamespace": "error",
         "noParameterProperties": "error",
-        "useConsistentArrayType": "error",
-        "useShorthandArrayType": "error",
 
         // --- React
         "noImplicitBoolean": "error"
