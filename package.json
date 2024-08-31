@@ -18,8 +18,8 @@
     "release": "changeset publish"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.27.5",
-    "@evilmartians/lefthook": "^1.6.18"
+    "@changesets/cli": "^2.27.7",
+    "@evilmartians/lefthook": "^1.7.14"
   },
   "peerDependencies": {
     "@biomejs/biome": "^1.8.0",
