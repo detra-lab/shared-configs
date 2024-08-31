@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.7.0
+
+**Biome (Linter)**: Disable the `noAccumulatingSpread`, `useFilenamingConvention` and `noForEach` rules.
+
 ## 0.6.0
 
 **Biome (Linter)**: Disable the `useConsistentArrayType` and `useShorthandArrayType` rules.

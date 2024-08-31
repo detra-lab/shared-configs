@@ -22,6 +22,7 @@
 
       "complexity": {
         "noExcessiveCognitiveComplexity": "error",
+        "noForEach": "off",
         "noVoid": "error",
         "useSimplifiedLogicExpression": "error"
       },
@@ -90,6 +91,7 @@
       },
 
       "performance": {
+        "noAccumulatingSpread": "off",
         "noBarrelFile": "error"
       },
 
@@ -99,15 +101,7 @@
         "noShoutyConstants": "error",
         "useBlockStatements": "error",
         "useCollapsedElseIf": "error",
-        "useFilenamingConvention": {
-          "level": "error",
-          "options": {
-            // Ref. https://biomejs.dev/linter/rules/use-filenaming-convention/
-            "strictCase": true,
-            "requireAscii": true,
-            "filenameCases": ["kebab-case", "PascalCase"]
-          }
-        },
+        "useFilenamingConvention": "off",
         "useForOf": "error",
         "useNamingConvention": {
           "level": "error",
