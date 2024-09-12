@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.8.0
+
+**Biome**: Update formatter and linter configurations for support of Biome v1.9.0.
+
 ## 0.7.0
 
 **Biome (Linter)**: Disable the `noAccumulatingSpread`, `useFilenamingConvention` and `noForEach` rules.
